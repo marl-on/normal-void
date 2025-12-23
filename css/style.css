@@ -32,8 +32,8 @@ body {
 header {
   display: flex;
   justify-content: center;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 
 .header-container {
@@ -64,8 +64,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 
 .disclaimer-container {
@@ -327,8 +327,8 @@ footer {
 .guestbook-container {
   margin-top: 2em;
   text-align: center;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 
 .guestbook-container p {
@@ -351,9 +351,14 @@ footer {
 }
 
 @include media-breakpoint-up(lg) {
-  .header {
+  header {
     padding-left: 15%;
     padding-right: 15%;
+  }
+
+  footer {
+    padding-left: 1.25%;
+    padding-right: 1.25%;
   }
 
   .guestbook-container {
