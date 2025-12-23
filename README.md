@@ -7,7 +7,7 @@ A small personal website to share about me and the music I like.
 * **Previous**: Restarts the current song (**if played for >3s**) or goes to the previous track.
 * **Play/Pause**: Plays or pauses the current song.
 
-### Disclaimer
+## Disclaimer
 
 This project is a personal, non-commercial hobby project created for learning and experimentation purposes.
 
