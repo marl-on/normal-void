@@ -344,10 +344,25 @@ footer {
   justify-content: center;
   gap: 5px;
   margin-top: 2em;
-  padding-left: 15%;
-  padding-right: 15%;
 }
 
 .buttons-container a {
   text-decoration: none;
+}
+
+@include media-breakpoint-up(lg) {
+  .header {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .guestbook-container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .buttons-container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
