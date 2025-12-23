@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="src/img/home/console-icon.png" type="image/x-icon">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,20 +15,27 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <title>web-iPod</title>
+    <title>ANormal iPod</title>
   </head>
   <body>
     <div id="page-body">
-      <header class="text-center text-white">
-        <h1>Online iPod</h1>
-        <p>An iPod-inspired web music player.</p>
+      <header class="text-center">
+        <div class="header-container">
+          <h1 class="title-header">[~]$ whoami</h1>
+          <p>
+            Este es un pequeño espacio personal donde comparto algunas de mis
+            canciones favoritas y experimento con diseño y código.
+          </p>
+          <h6>
+            La playlist refleja lo que más estuve escuchando durante diciembre.
+          </h6>
+        </div>
       </header>
 
       <main class="content">
         <div class="music-player container p-3">
           <!-- IPOD SCREEN -->
           <div class="player-screen">
-
             <!-- SONG INFO VIEW -->
             <div class="album-view">
               <img src="" alt="Álbum" class="album-img" />
@@ -47,6 +55,63 @@
               <div class="playlist">
                 <div class="playlist-item song-0">
                   <img
+                    src="src/img/AhiVamos.jpg"
+                    alt="Album"
+                    class="playlist-img"
+                  />
+                  <div class="playlist-info">
+                    <h5 class="playlist-title">Crimen</h5>
+                    <h6 class="playlist-artist">Gustavo Cerati</h6>
+                  </div>
+                </div>
+                <div class="playlist-item song-1">
+                  <img
+                    src="src/img/Bocanada.jpg"
+                    alt="Album"
+                    class="playlist-img"
+                  />
+                  <div class="playlist-info">
+                    <h5 class="playlist-title">Puente</h5>
+                    <h6 class="playlist-artist">Gustavo Cerati</h6>
+                  </div>
+                </div>
+                <div class="playlist-item song-2">
+                  <img
+                    src="src/img/SueñoStereo.jpg"
+                    alt="Album"
+                    class="playlist-img"
+                  />
+                  <div class="playlist-info">
+                    <h5 class="playlist-title">
+                      Ella Usó Mi Cabeza Como un Revólver
+                    </h5>
+                    <h6 class="playlist-artist">Gustavo Cerati</h6>
+                  </div>
+                </div>
+                <div class="playlist-item song-3">
+                  <img
+                    src="src/img/PelusonOfMilk.jpg"
+                    alt="Album"
+                    class="playlist-img"
+                  />
+                  <div class="playlist-info">
+                    <h5 class="playlist-title">Seguir Viviendo Sin Tu Amor</h5>
+                    <h6 class="playlist-artist">Luis Alberto Espinetta</h6>
+                  </div>
+                </div>
+                <div class="playlist-item song-4">
+                  <img
+                    src="src/img/Juguete.jpg"
+                    alt="Album"
+                    class="playlist-img"
+                  />
+                  <div class="playlist-info">
+                    <h5 class="playlist-title">Juguete</h5>
+                    <h6 class="playlist-artist">Enjambre</h6>
+                  </div>
+                </div>
+                <div class="playlist-item song-5">
+                  <img
                     src="src/img/ArrozConLeche.jpg"
                     alt="Album"
                     class="playlist-img"
@@ -56,17 +121,28 @@
                     <h6 class="playlist-artist">PXNDX</h6>
                   </div>
                 </div>
-                <!--<div class="playlist-item song-1">
+                <div class="playlist-item song-6">
                   <img
-                    src="..."
+                    src="src/img/ElSegundoEsFelino.jpg"
                     alt="Album"
                     class="playlist-img"
                   />
                   <div class="playlist-info">
-                    <h5 class="playlist-title">...</h5>
-                    <h6 class="playlist-artist">...</h6>
+                    <h5 class="playlist-title">Impaciente</h5>
+                    <h6 class="playlist-artist">Enjambre</h6>
                   </div>
-                </div>-->
+                </div>
+                <div class="playlist-item song-7">
+                  <img
+                    src="src/img/DondeLosPonysPastan.jpg"
+                    alt="Album"
+                    class="playlist-img"
+                  />
+                  <div class="playlist-info">
+                    <h5 class="playlist-title">Espiral</h5>
+                    <h6 class="playlist-artist">Porter</h6>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -87,10 +163,37 @@
           <!-- AUDIO -->
           <audio class="player" preload="auto"></audio>
         </div>
+        <div class="guestbook-container container">
+          <p>
+            ¿Alguna canción que quieras recomendar o simplemente dejar un
+            mensaje?
+          </p>
+          <p>Pasa por mi guestbook.</p>
+          <a href="https://normaal.atabook.org/" target="_blank">
+            <img
+              src="src/img/home/guestbook-button.gif"
+              alt="guestbook-button"
+            />
+          </a>
+        </div>
       </main>
 
-      <footer class="text-center text-white">
-        <h5>Footer</h5>
+      <footer>
+        <div class="buttons-container container">
+          <a href="https://github.com/marl-on/web-iPod/" target="_blank">
+            <img src="src/img/home/github.gif" alt="github-button" />
+          </a>
+        </div>
+        <div class="disclaimer-container text-center">
+          <p class="disclaimer-text">
+            This is a personal, non-commercial project created for educational
+            purposes as a demonstration of HTML, CSS, and JavaScript skills.
+            <br />
+            All music, artwork, and lyrics are the property of their respective
+            artists and copyright holders. This project does not claim ownership
+            of any copyrighted material and is not intended for commercial use.
+          </p>
+        </div>
       </footer>
     </div>
 

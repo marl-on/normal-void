@@ -15,22 +15,69 @@
   // HERE GOES ALL THE SONGS
   const playlist = [
     {
-      title: "Buen día",
+      title: "Crimen",
+      artist: "Gustavo Cerati",
+      audio:
+        "https://www.dropbox.com/scl/fi/y1z6zy3g95b3072gy4aay/Crimen.mp3?rlkey=dn8ktsuuukaimn5tagug6e5yp&st=g98wc2pa&dl=1",
+      lrc: "src/lrc/Crimen.lrc",
+      cover: "src/img/AhiVamos.jpg",
+    },
+    {
+      title: "Puente",
+      artist: "Gustavo Cerati",
+      audio:
+        "https://www.dropbox.com/scl/fi/47v7au7nyqxj5coltze58/Puente.mp3?rlkey=7uipbedy2rdardie24k06i31r&st=ojotitod&dl=1",
+      lrc: "src/lrc/Puente.lrc",
+      cover: "src/img/Bocanada.jpg",
+    },
+    {
+      title: "Ella Usó Mi Cabeza Como Un Revólver",
+      artist: "Soda Stereo",
+      audio:
+        "https://www.dropbox.com/scl/fi/minemogm6trg2ycytd4mm/Ella-Uso-Mi-Cabeza.mp3?rlkey=za0ijtwaok0vudtlepibgp2hd&st=gohhgfzn&dl=1",
+      lrc: "src/lrc/Ella-Uso-Mi-Cabeza.lrc",
+      cover: "src/img/SueñoStereo.jpg",
+    },
+    {
+      title: "Seguir Viviendo Sin Tu Amor",
+      artist: "Luis Alberto Spinetta",
+      audio:
+        "https://www.dropbox.com/scl/fi/4j0u3v1263robe2yqki2y/Seguir-Viviendo.mp3?rlkey=sbup12tdl1psl6wv6bwuay6oy&st=p9x6g89g&dl=1",
+      lrc: "src/lrc/Seguir-Viviendo.lrc",
+      cover: "src/img/PelusonOfMilk.jpg",
+    },
+    {
+      title: "Juguete",
+      artist: "Enjambre",
+      audio:
+        "https://www.dropbox.com/scl/fi/pxq8bssnada6ud7isg1hp/Juguete.mp3?rlkey=2iokut98p9y6lxx12mxu2fdzj&st=e2y24hay&dl=1",
+      lrc: "src/lrc/Juguete.lrc",
+      cover: "src/img/Juguete.jpg",
+    },
+    {
+      title: "Buen Día",
       artist: "PXNDX",
-      audio: "https://www.dropbox.com/scl/fi/2ofsnzjk4d0tgbm32wurp/Buen-Dia.mp3?rlkey=njbg7aw2h93or3nbbbp6o8dz5&st=a7mcxp04&dl=1",
+      audio:
+        "https://www.dropbox.com/scl/fi/2ofsnzjk4d0tgbm32wurp/Buen-Dia.mp3?rlkey=njbg7aw2h93or3nbbbp6o8dz5&st=a7mcxp04&dl=1",
       lrc: "src/lrc/Buen-Dia.lrc",
       cover: "src/img/ArrozConLeche.jpg",
     },
-    /*{
-      title: "...",
-      artist: "...",
-      audio: "...",
-      lrc: "...",
-      cover: "...",
+    {
+      title: "Impaciente",
+      artist: "Enjambre",
+      audio:
+        "https://www.dropbox.com/scl/fi/jxhn5m58wku1nzrjhqrph/Impaciente.mp3?rlkey=xk25myt0v19sfnrwc1r744rnp&st=4bm97kzk&dl=1",
+      lrc: "src/lrc/Impaciente.lrc",
+      cover: "src/img/ElSegundoEsFelino.jpg",
     },
     {
-      ...
-    },*/
+      title: "Espiral",
+      artist: "Porter",
+      audio:
+        "https://www.dropbox.com/scl/fi/1kae3yfsgjrdqntkleytf/Espiral.mp3?rlkey=hf9gvcfruj1mfnwu3usychaos&st=mnosozpu&dl=1",
+      lrc: "src/lrc/Espiral.lrc",
+      cover: "src/img/DondeLosPonysPastan.jpg",
+    },
   ];
 
   let currentSongIndex = 0;
@@ -181,8 +228,13 @@
 
   // SELECT SONG FROM THE PLAYLIST VIEW
   const song_0 = document.querySelector(".song-0");
-  /*const song_1 = document.querySelector(".song-1");*/
-
+  const song_1 = document.querySelector(".song-1");
+  const song_2 = document.querySelector(".song-2");
+  const song_3 = document.querySelector(".song-3");
+  const song_4 = document.querySelector(".song-4");
+  const song_5 = document.querySelector(".song-5");
+  const song_6 = document.querySelector(".song-6");
+  const song_7 = document.querySelector(".song-7");
 
   song_0.onclick = async () => {
     currentSongIndex = 0;
@@ -192,13 +244,61 @@
     showView("album");
   };
 
-  /*song_1.onclick = async () => {
+  song_1.onclick = async () => {
     currentSongIndex = 1;
     await loadSong(currentSongIndex);
     showView("album");
     previousView = "lyric";
     dom.player.play();
-  };*/
+  };
+
+  song_2.onclick = async () => {
+    currentSongIndex = 2;
+    await loadSong(currentSongIndex);
+    showView("album");
+    previousView = "lyric";
+    dom.player.play();
+  };
+
+  song_3.onclick = async () => {
+    currentSongIndex = 3;
+    await loadSong(currentSongIndex);
+    showView("album");
+    previousView = "lyric";
+    dom.player.play();
+  };
+
+  song_4.onclick = async () => {
+    currentSongIndex = 4;
+    await loadSong(currentSongIndex);
+    showView("album");
+    previousView = "lyric";
+    dom.player.play();
+  };
+
+  song_5.onclick = async () => {
+    currentSongIndex = 5;
+    await loadSong(currentSongIndex);
+    showView("album");
+    previousView = "lyric";
+    dom.player.play();
+  };
+
+  song_6.onclick = async () => {
+    currentSongIndex = 6;
+    await loadSong(currentSongIndex);
+    showView("album");
+    previousView = "lyric";
+    dom.player.play();
+  };
+
+  song_7.onclick = async () => {
+    currentSongIndex = 7;
+    await loadSong(currentSongIndex);
+    showView("album");
+    previousView = "lyric";
+    dom.player.play();
+  };
 
   // METHOD: ANIMATE LYRICS WORD BY WORD
   let currentAnimationText = "";
