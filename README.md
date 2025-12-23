@@ -1,6 +1,4 @@
-# web-iPod
-An iPod-style web music player with LRC file and playlist support.  
-I'm currently a student so it is not perfect but it's a little project I wanted to make.
+A small personal website to share about me and the music I like.
 
 ## Controls
 * **MENU**: Opens the playlist screen to see and select songs.
@@ -17,7 +15,3 @@ All music, images, and lyrics used in this project are the property of their res
 No copyright infringement is intended.
 
 The audio files are not hosted directly in this repository and are accessed through external links for personal use only.
-
-### Credits
-* **[Lyric-Synchronizer](https://dev.to/mcanam/javascript-lyric-synchronizer-4i15)** by **mcanam** — Used for handling synchronized lyric playback.
-* Also check out the **[Liricle](https://github.com/mcanam/liricle)** library by the same author, which is based on this logic.
