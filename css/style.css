@@ -41,7 +41,7 @@ header {
 }
 
 .title-header {
-  font-family: "Courier New", Courier, "Courier Prime", monospace;
+  font-family: "Courier", "Courier Prime";
   font-size: 2.5em;
   color: rgb(0, 207, 0);
 }
@@ -52,7 +52,7 @@ header {
   line-height: 1.4;
   color: white;
   max-width: 650px;
-  font-family: "Courier New", Courier, "Courier Prime", monospace;
+  font-family: "Courier", "Courier Prime";
 }
 
 .header-container h6 {
@@ -325,6 +325,7 @@ footer {
 }
 
 .guestbook-container {
+  max-width: 850px;
   margin-top: 2em;
   text-align: center;
   padding-left: 2.5%;
@@ -335,17 +336,30 @@ footer {
   font-size: 0.85em;
   line-height: 1.4;
   color: #ffffff;
-  max-width: 850px;
-  font-family: "Courier New", Courier, "Courier Prime", monospace;
+  font-family: "Courier", "Courier Prime";
 }
 
 .buttons-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
   justify-content: center;
   gap: 5px;
   margin-top: 2em;
+  width: 100%;
 }
 
+@media (max-width: 576px) {
+  .buttons-container {
+    grid-template-columns: repeat(3, auto); 
+  }
+
+
+  .buttons-container a:last-child {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+  }
+}
 .buttons-container a {
   text-decoration: none;
 }
