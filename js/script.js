@@ -15,68 +15,76 @@
   // HERE GOES ALL THE SONGS
   const playlist = [
     {
-      title: "Crimen",
-      artist: "Gustavo Cerati",
+      title: "24 horas",
+      artist: "Café Tacvba",
       audio:
-        "https://www.dropbox.com/scl/fi/y1z6zy3g95b3072gy4aay/Crimen.mp3?rlkey=dn8ktsuuukaimn5tagug6e5yp&st=g98wc2pa&dl=1",
-      lrc: "src/lrc/Crimen.lrc",
-      cover: "src/img/AhiVamos.jpg",
+        "https://www.dropbox.com/scl/fi/xqorx5h5efdvogt6qwmu8/Caf-Tacvba-24-horas.mp3?rlkey=zscsfe5cj5bm4xifhg0eg0nah&st=wqbnvu4q&dl=1",
+      lrc: "src/lrc/24-horas.lrc",
+      cover: "src/img/re.webp",
     },
     {
-      title: "Puente",
-      artist: "Gustavo Cerati",
+      title: "Como te extraño mi amor",
+      artist: "Café Tacvba",
       audio:
-        "https://www.dropbox.com/scl/fi/47v7au7nyqxj5coltze58/Puente.mp3?rlkey=7uipbedy2rdardie24k06i31r&st=ojotitod&dl=1",
-      lrc: "src/lrc/Puente.lrc",
-      cover: "src/img/Bocanada.jpg",
+        "https://www.dropbox.com/scl/fi/pfbb0sdzkqdrumnlqmqfi/Caf-Tacvba-Como-te-extra-o-mi-amor.mp3?rlkey=1amr2kuz7u1z4uy5pqigd1wwb&st=apmctz9e&dl=1",
+      lrc: "src/lrc/como-te-extrano-miamor.lrc",
+      cover: "src/img/avalancha.webp",
     },
     {
-      title: "Ella Usó Mi Cabeza Como Un Revólver",
-      artist: "Soda Stereo",
-      audio:
-        "https://www.dropbox.com/scl/fi/minemogm6trg2ycytd4mm/Ella-Uso-Mi-Cabeza.mp3?rlkey=za0ijtwaok0vudtlepibgp2hd&st=gohhgfzn&dl=1",
-      lrc: "src/lrc/Ella-Uso-Mi-Cabeza.lrc",
-      cover: "src/img/SueñoStereo.jpg",
-    },
-    {
-      title: "Seguir Viviendo Sin Tu Amor",
-      artist: "Luis Alberto Spinetta",
-      audio:
-        "https://www.dropbox.com/scl/fi/4j0u3v1263robe2yqki2y/Seguir-Viviendo.mp3?rlkey=sbup12tdl1psl6wv6bwuay6oy&st=p9x6g89g&dl=1",
-      lrc: "src/lrc/Seguir-Viviendo.lrc",
-      cover: "src/img/PelusonOfMilk.jpg",
-    },
-    {
-      title: "Juguete",
+      title: "Reflejo",
       artist: "Enjambre",
       audio:
-        "https://www.dropbox.com/scl/fi/pxq8bssnada6ud7isg1hp/Juguete.mp3?rlkey=2iokut98p9y6lxx12mxu2fdzj&st=e2y24hay&dl=1",
-      lrc: "src/lrc/Juguete.lrc",
-      cover: "src/img/Juguete.jpg",
+        "https://www.dropbox.com/scl/fi/aspmo7es6obv8jkknvgqr/Enjambre-Reflejo.mp3?rlkey=slgdd65kkahqc3wvp694p9zid&st=k8bzl5bm&dl=1",
+      lrc: "src/lrc/reflejo.lrc",
+      cover: "src/img/huespedes.webp",
     },
     {
-      title: "Buen Día",
-      artist: "PXNDX",
+      title: "Beautiful",
+      artist: "Gustavo Cerati",
       audio:
-        "https://www.dropbox.com/scl/fi/2ofsnzjk4d0tgbm32wurp/Buen-Dia.mp3?rlkey=njbg7aw2h93or3nbbbp6o8dz5&st=a7mcxp04&dl=1",
-      lrc: "src/lrc/Buen-Dia.lrc",
-      cover: "src/img/ArrozConLeche.jpg",
+        "https://www.dropbox.com/scl/fi/xde6snd29ncm25jshm0lx/Gustavo-Cerati-Beautiful.mp3?rlkey=dxr2jllokovcpl7h4s83gm4le&st=sxu4xu6r&dl=1",
+      lrc: "src/lrc/beautiful.lrc",
+      cover: "src/img/bocanada.webp",
     },
     {
-      title: "Impaciente",
-      artist: "Enjambre",
+      title: "Nací para Esto",
+      artist: "Gustavo Cerati",
       audio:
-        "https://www.dropbox.com/scl/fi/jxhn5m58wku1nzrjhqrph/Impaciente.mp3?rlkey=xk25myt0v19sfnrwc1r744rnp&st=4bm97kzk&dl=1",
-      lrc: "src/lrc/Impaciente.lrc",
-      cover: "src/img/ElSegundoEsFelino.jpg",
+        "https://www.dropbox.com/scl/fi/1g38090ebhnaczhw3o5em/Gustavo-Cerati-Nac-para-Esto.mp3?rlkey=lf9foevd4wxxyanl405w1m3fe&st=fnv7bs6x&dl=1",
+      lrc: "src/lrc/naci-para-esto.lrc",
+      cover: "src/img/hoy.webp",
     },
     {
-      title: "Espiral",
-      artist: "Porter",
+      title: "Que Se Puede Hacer Salvo Ver Peliculas",
+      artist: "La Máquina De Hacer Pájaros",
       audio:
-        "https://www.dropbox.com/scl/fi/1kae3yfsgjrdqntkleytf/Espiral.mp3?rlkey=hf9gvcfruj1mfnwu3usychaos&st=mnosozpu&dl=1",
-      lrc: "src/lrc/Espiral.lrc",
-      cover: "src/img/DondeLosPonysPastan.jpg",
+        "https://www.dropbox.com/scl/fi/38213lyqfl661c6jz7j3j/La-M-quina-de-Hacer-P-jaros-Que-Se-Puede-Hacer-Salvo-Ver-Peliculas.mp3?rlkey=tgs4oqebp1nnuhbyt95ktz7jh&st=zsce695p&dl=1",
+      lrc: "src/lrc/que-se-puede-hacer-salvo-ver-peliculas.lrc",
+      cover: "src/img/peliculas.webp",
+    },
+    {
+      title: "Treat Her Better",
+      artist: "Mac DeMarco",
+      audio:
+        "https://www.dropbox.com/scl/fi/x4jm6hcnqrfwpsmzy8009/Mac-DeMarco-Treat-Her-Better.mp3?rlkey=5bgporc0mod302g20pqddgxid&st=unhzas2v&dl=1",
+      lrc: "src/lrc/treat-her-better.lrc",
+      cover: "src/img/salad.webp",
+    },
+    {
+      title: "Average Guy (Blame)",
+      artist: "TV Girl, Monster Rally",
+      audio:
+        "https://www.dropbox.com/scl/fi/tyawn7jy1slluxck7l04g/Monster-Rally-Average-Guy-Blame.mp3?rlkey=6ox7t7bn9xbtott6bxjbhnb1a&st=2icvdci1&dl=1",
+      lrc: "src/lrc/average-guy-(blame).lrc",
+      cover: "src/img/average.webp",
+    },
+    {
+      title: "Under Cover of Darkness",
+      artist: "The Strokes",
+      audio:
+        "https://www.dropbox.com/scl/fi/ffseai0nk8guw0gsew8qy/The-Strokes-Under-Cover-of-Darkness.mp3?rlkey=3zmnt6pfolrjj5be37odv2kxm&st=yhn7031q&dl=1",
+      lrc: "src/lrc/under-cover-of-darkness.lrc",
+      cover: "src/img/angles.webp",
     },
   ];
 
@@ -235,6 +243,8 @@
   const song_5 = document.querySelector(".song-5");
   const song_6 = document.querySelector(".song-6");
   const song_7 = document.querySelector(".song-7");
+  const song_8 = document.querySelector(".song-8");
+
 
   song_0.onclick = async () => {
     currentSongIndex = 0;
@@ -294,6 +304,14 @@
 
   song_7.onclick = async () => {
     currentSongIndex = 7;
+    await loadSong(currentSongIndex);
+    showView("album");
+    previousView = "lyric";
+    dom.player.play();
+  };
+
+  song_8.onclick = async () => {
+    currentSongIndex = 8;
     await loadSong(currentSongIndex);
     showView("album");
     previousView = "lyric";
