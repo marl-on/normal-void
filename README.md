@@ -1,4 +1,4 @@
-A small personal website to share songs I've been listening too.
+A small personal website to share some songs I've been listening to.
 
 ## Controls
 * **MENU**: Opens the playlist screen to see and select songs.
